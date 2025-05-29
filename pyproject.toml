@@ -3,5 +3,10 @@ name = "captcha-solver-coursework"
 version = "0.1.0"
 description = "Modification of yeguixin/captcha_solver to satisfy coursework requirements"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+authors = [{ name = "Cylix Lee", email = "cylix.lee@outlook.com" }]
+requires-python = ">=3.10"
+dependencies = ["keras>=3.10.0", "matplotlib>=3.10.3", "numpy>=2.2.6"]
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
