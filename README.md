@@ -1,32 +1,26 @@
-# captcha_solver
+# Captcha Solver Coursework
 
-Contributors: Guixin Ye, Zhanyong Tang, Dingyi Fang, Zhanxing Zhu, Yansong Feng, Pengfei Xu, Xiaojiang Chen, [Zheng Wang](http://www.lancaster.ac.uk/staff/wangz3/)
-[Northwest University, China](http://www.nwu.edu.cn/); [Lancaster University, UK](http://www.lancaster.ac.uk/scc/); [Peking University, China](http://www.pku.edu.cn/)
+This repository is a modification of [yeguixin/captcha_solver](https://github.com/yeguixin/captcha_solver) and is used
+to satisfy coursework requirements of *New Technologies of Network Adversarial Attacks and Defenses*.
 
-This is an open source code for solving the text-based captchas based on the machine learning technologies. This approach is able to achieve a higher success rate but requires significantly fewer real captchas. Here we exposed partial source code that can run independently for security reasons. Note that it is not production ready. If you encounter any problems, please file an issue on GitHub.
-
-
-# Requirements
-
-* Linux or Windows
-
-* NVIDIA GPU + CUDA CuDNN (CPU mode and CUDA without CuDNN may work with minimal modification, but untested)
-
-
-# License
-
-Source code of this repository is released under the [Apache License (v2.0)](http://www.apache.org/licenses/LICENSE-2.0)
-
-
-# Citation
-
-```bibtex
-@inproceedings{ye2018yet,     
-  title={Yet Another Text Captcha Solver: A Generative Adversarial Network Based Approach},  
-  author={Ye, Guixin and Tang, Zhanyong and Fang, Dingyi and Zhu, Zhanxing and Feng, Yansong and Xu, Pengfei and Chen, Xiaojiang and Wang, Zheng},  
-  booktitle={The 25th ACM Conference on Computer and Communications Security},     
-  series = {CCS '18},     
-  year={2018},     
-  organization={ACM}    
-  }
-```
+> **Open Source License**
+> 
+> The original project is licensed under [Apache-2.0 license](http://www.apache.org/licenses/LICENSE-2.0). For readability,
+some comments of the source code are removed and a [LICENSE](LICENSE) file is placed at the root of this project.
+>
+> License comments were written as below:
+> ```
+> Copyright 2018 Northwest University
+> 
+> Licensed under the Apache License, Version 2.> 0 (the "License");
+> you may not use this file except in > compliance with the License.
+> You may obtain a copy of the License at
+> 
+>     http://www.apache.org/licenses/LICENSE-2.> 0
+> 
+> Unless required by applicable law or agreed > to in writing, software
+> distributed under the License is distributed > on an "AS IS" BASIS,
+> WITHOUT WARRANTIES OR CONDITIONS OF ANY > KIND, either express or implied.
+> See the License for the specific language > governing permissions and
+> limitations under the License.
+> ```
